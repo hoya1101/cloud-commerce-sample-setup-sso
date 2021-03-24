@@ -242,6 +242,10 @@
 			 { 
 				"name":"xyformsweb",
 				"contextPath":"/xyformsweb"
+			 },
+			 { 
+				"name":"samlsinglesignon",
+				"contextPath":"/samlsinglesignon"
 			 }
 		  ]
 	   },
