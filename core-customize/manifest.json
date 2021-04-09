@@ -1,5 +1,5 @@
 {
-    "commerceSuiteArtifact": "de.hybris.platform.suite:commerce-suite:2105.0-SNAPSHOT",
+    "commerceSuiteVersion": "2011",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
