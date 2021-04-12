@@ -3,7 +3,9 @@
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
-        "mediaconversionbackoffice"
+        "mediaconversionbackoffice",
+        "samlsinglesignon",
+        "samlssobackoffice"
     ],
     "useConfig": {
         "properties": [
@@ -127,7 +129,11 @@
                 {
                   "name":"odata2webservices",
                   "contextPath":"/odata2webservices"
-               }
+                },
+                { 
+				"name":"samlsinglesignon",
+				"contextPath":"/samlsinglesignon"
+			    }
             ]
         },
         {
