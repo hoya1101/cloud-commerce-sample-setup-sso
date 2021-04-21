@@ -111,32 +111,6 @@
     ],
     "aspects": [
         {
-            "name": "backoffice",
-            "properties": [],
-            "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
-                },
-                {
-                    "name": "backoffice",
-                    "contextPath": "/backoffice"
-                },
-                {
-                  "name":"odata2webservices",
-                  "contextPath":"/odata2webservices"
-                },
-                { 
-				"name":"samlsinglesignon",
-				"contextPath":"/samlsinglesignon"
-			    }
-            ]
-        },
-        {
             "name": "accstorefront",
             "properties": [
                 {
