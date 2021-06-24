@@ -4,8 +4,7 @@
     "extensions": [
         "cloudmediaconversion",  
         "mediaconversionbackoffice",
-        "samlssobackoffice",
-	"scimwebservices"
+        "samlssobackoffice"
     ],
     "useConfig": {
         "properties": [
