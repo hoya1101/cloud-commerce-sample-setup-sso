@@ -2,9 +2,10 @@
     "commerceSuiteVersion": "2011",
     "enableImageProcessingService": true,
     "extensions": [
-        "cloudmediaconversion",  
+        "cloudmediaconversion",
         "mediaconversionbackoffice",
-        "samlssobackoffice"
+        "samlssobackoffice",
+        "scimwebservices"
     ],
     "useConfig": {
         "properties": [
@@ -22,19 +23,19 @@
             },
             {
                 "location": "/hybris/config/environments/common.properties"
-             },
-             {
+            },
+            {
                 "aspect": "accstorefront",
                 "location": "/hybris/config/environments/accstorefront.properties"
-             },
-             {
+            },
+            {
                 "aspect": "api",
                 "location": "/hybris/config/environments/api.properties"
-             },
-             {
+            },
+            {
                 "aspect": "backoffice",
                 "location": "/hybris/config/environments/backoffice.properties"
-             }
+            }
         ],
         "extensions": {
             "location": "/hybris/config/localextensions.xml",
@@ -126,13 +127,17 @@
                     "contextPath": "/backoffice"
                 },
                 {
-                  "name":"odata2webservices",
-                  "contextPath":"/odata2webservices"
+                    "name": "odata2webservices",
+                    "contextPath": "/odata2webservices"
                 },
-                { 
-				"name":"samlsinglesignon",
-				"contextPath":"/samlsinglesignon"
-			    }
+                {
+                    "name": "samlsinglesignon",
+                    "contextPath": "/samlsinglesignon"
+                },
+                {
+                    "name": "scimwebservices",
+                    "contextPath": "/scim"
+                }
             ]
         },
         {
