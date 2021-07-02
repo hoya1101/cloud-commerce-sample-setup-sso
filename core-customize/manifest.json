@@ -6,7 +6,7 @@
             "name" : "hybris-commerce-integrations",
             "version" : "2102"
         }
-	],
+    ],
     "extensions": [
         "cloudmediaconversion",
         "mediaconversionbackoffice",
