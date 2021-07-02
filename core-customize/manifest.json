@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "scimwebservices",
-                    "contextPath": "/scim"
+                    "contextPath": "/scimwebservices"
                 }
             ]
         },
