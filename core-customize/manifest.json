@@ -1,10 +1,10 @@
 {
-    "commerceSuiteVersion": "2011",
+    "commerceSuiteVersion": "2015",
+    "commerceSuiteArtifact": "de.hybris.platform.suite:commerce-suite:2105.0.210223015",
     "enableImageProcessingService": true,
     "extensionPacks": [
         {
-            "name": "hybris-commerce-integrations",
-            "version": "2102.0"
+           "artifact": "de.hybris.platform.suite:commerce-integrations:2108.0.210924006"
         }
     ],
     "extensions": [
